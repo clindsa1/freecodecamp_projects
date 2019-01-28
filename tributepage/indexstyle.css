@@ -1,5 +1,31 @@
 body {
-    background-color: darkslategrey;
-    color: azure;
+    color: white; background-color: darkslategrey;
+    font-family: 'Helvetica', sans-serif;
     font-size: 1.1em;
+}
+
+h1 {
+	color: red;
+}
+
+a:hover {
+	color: green;
+}
+
+#img-div {
+	padding: 0px 0px 5px 0px !important;
+	border-width: 4px 4px 4px 4px;
+	border-style: solid; border-color: green;
+	position: relative; /*relative to the width of its parent element*/
+	background-color: orange; /*just for dev*/
+	/*responsively resize*/
+	
+	d/*without exceeding its original size*/
+}
+
+#image {
+	margin: 25% 25% 0% 25%; /*centered within its parent element*/
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	background-color: blue; /*just for dev*/
 }
